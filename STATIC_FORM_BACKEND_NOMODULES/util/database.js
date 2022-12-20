@@ -1,7 +1,7 @@
 const Sequelize = require('sequelize');
 
 
-const sequelize = new Sequelize('BookingApp', 'root', 'Maria123#', {
+const sequelize = new Sequelize(DBADMINPASS', {
 
     dialect: 'mysql',
     host : 'localhost',
